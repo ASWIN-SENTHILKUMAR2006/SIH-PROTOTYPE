@@ -362,7 +362,7 @@ ob_start();
 
 <body>
     <?php
-    include 'header.php';
+    include 'staffheader.php';
     include 'staffsidebar.php';
 
     ?>

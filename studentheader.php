@@ -8,9 +8,9 @@
     <!-- User Profile -->
     <div class="user-profile" onclick="toggleDropdown()">
         <div class="avatar">
-            <?php echo strtoupper(substr($_SESSION['role'] ?? 'A', 0, 1)); ?>
+            <?php echo strtoupper(substr($_SESSION['role'] ?? 'R', 0, 1)); ?>
         </div>
-        <span class="username"><?php echo ucfirst($_SESSION['role'] ?? 'Aadhya'); ?></span>
+        <span class="username"><?php echo ucfirst($_SESSION['role'] ?? 'Ram'); ?></span>
         <div class="dropdown" id="dropdownMenu">
             <a href="logout.php">Logout</a>
         </div>
