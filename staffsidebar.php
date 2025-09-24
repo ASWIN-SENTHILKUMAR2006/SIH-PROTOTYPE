@@ -12,6 +12,7 @@ ob_start();
         <li data-tab="hostel">Hostel Allocation</li>
         <li data-tab="exam">Examination Records</li>
         <li data-tab="library">Library Records</li>
+
     </ul>
 </div>
 <?php

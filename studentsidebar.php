@@ -6,12 +6,11 @@ ob_start();
 
     <ul>
 
+
         <li class="active" data-tab="dashboard">Dashboard</li>
-        <li data-tab="admission">Admission</li>
-        <li data-tab="fee">Fee Management</li>
-        <li data-tab="hostel">Hostel Allocation</li>
-        <li data-tab="exam">Examination Records</li>
-        <li data-tab="library">Library Records</li>
+        <li data-tab="feepayment">Fee Payment</li>
+        <li data-tab="examrecords">Exam Records</li>
+        <li data-tab="feedback">Feedback</li>
     </ul>
 </div>
 <?php

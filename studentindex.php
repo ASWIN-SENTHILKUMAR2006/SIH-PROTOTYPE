@@ -3,6 +3,8 @@
 ob_start();
 
 ?>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <style>
     * {
         margin: 0;
@@ -359,6 +361,9 @@ ob_start();
     <div class="content">
         <?php
         include 'studentdashboard.php';
+        include 'studentfeedback.php';
+        include 'studentexam.php';
+        include 'studentfee.php';
         ?>
     </div>
     <?php
