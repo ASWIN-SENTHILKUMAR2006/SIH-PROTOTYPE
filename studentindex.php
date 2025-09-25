@@ -4,7 +4,7 @@ ob_start();
 
 ?>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+<script src="script.js" defer></script>
 <style>
     * {
         margin: 0;

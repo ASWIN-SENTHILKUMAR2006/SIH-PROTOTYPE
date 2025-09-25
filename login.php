@@ -10,17 +10,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($username === "admin" && $password === "admin123" && $role === "admin") {
         $_SESSION['role'] = "admin";
         $_SESSION['username'] = $username;
-        header("Location: user_management.php");
+        header("Location: index.php");
         exit();
     } elseif ($username === "staff" && $password === "staff123" && $role === "staff") {
         $_SESSION['role'] = "staff";
         $_SESSION['username'] = $username;
-        header("Location: dashboard.php"); // Different page for staff
+        header("Location: staffindex.php"); // Different page for staff
         exit();
     } elseif ($username === "student" && $password === "student123" && $role === "student") {
         $_SESSION['role'] = "student";
         $_SESSION['username'] = $username;
-        header("Location: student_dashboard.php"); // Different page for students
+        header("Location: studentindex.php"); // Different page for students
         exit();
     } else {
         $error = "Invalid login details!";

@@ -2,6 +2,46 @@
 // Start output buffering
 ob_start();
 ?>
+<style>
+    /* --- Fee Payment Section --- */
+    #feepayment .form-container {
+        margin-top: 20px;
+    }
+
+    #feepayment input,
+    #feepayment select {
+        width: 100%;
+    }
+
+    /* --- Examination Records --- */
+    .exam-section {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+    }
+
+    .exam-section h3 {
+        margin-bottom: 10px;
+        color: #354f52;
+    }
+
+    .exam-section ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .exam-section ul li {
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+        color: #2f3e46;
+    }
+
+    .exam-section ul li:last-child {
+        border-bottom: none;
+    }
+</style>
 <div id="feepayment" style="display:none;">
     <h2 class="page-title">Fee Payment</h2>
     <div class="cards">
